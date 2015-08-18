@@ -1,0 +1,223 @@
+html {
+    background-color: #800606;
+}
+
+.content {
+    background-color: #800606;
+}
+
+.sub-content {
+    display: none;
+    text-align: center;
+}
+
+.header {
+	margin-top: 50px;
+    background-color: white;
+    opacity: .5;
+    margin: 50px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.uni {
+	width: 100%;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-style: italic;
+    font-size: 10vmin;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+.subhead {
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 8vmin;
+    letter-spacing: 0.025em;
+    text-align: center;
+    margin-bottom: 40px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.navbox {
+    text-align: center;
+    margin: 0px 20px 30px 0px;
+} 
+
+.nav {
+	display: inline-block;
+    width: 240px;
+    height: 400px;
+    border-color: #333333;
+    border-width: 2px;
+    border-style: solid;
+    background-size: cover;
+    margin: 10px;
+    transition: background-image 0.2s ease;
+    background-position-x: -90px;
+}
+
+.nav:hover {
+    cursor: pointer;
+}
+
+.freshmen {
+    background-image: url("Images/Locust.jpg"); 
+}
+
+.freshmen:hover {
+    background: url("Images/Locust Hover.jpg");
+    background-position-x: -90px;
+    background-size: cover;
+}
+
+.sophomore {
+    background-image: url("Images/Canvas.jpg"); 
+}
+
+.sophomore:hover {
+    background: url("Images/Canvas Hover.jpg");
+}
+
+.junior {
+    background-image: url("Images/Holi.jpg"); 
+}
+
+.junior:hover {
+    background: url("Images/Holi Hover.jpg");
+}
+
+.senior {
+    background-image: url("Images/Hey Day.jpg"); 
+}
+
+.senior:hover {
+    background: url("Images/Hey Day Hover.jpg");
+}
+
+.navtext {
+    margin-top: 100px;
+    font-size: 200px;
+    font-weight: 100;
+    margin-left: -20px;
+    height: 300px;
+}
+
+.navtext:hover {
+    color: white
+}
+
+.class-head {
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.info {
+    margin-top: 3vh;
+    display: inline-table;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 2vmin;
+    letter-spacing: 0.1em;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.info li {
+    display: inline;
+    float: left;
+    width: 20vmin;
+    border: 1px solid white;
+    text-align: center;
+    margin: 0.5vmin;
+    padding: 3px;
+}
+
+.info li:hover{
+    border: 1px solid #BBB;
+    background-color: #BBB;
+    
+}
+
+.info a {
+    text-decoration: none;
+    color: white;
+    line-height: 4vmin;
+}
+
+.board-info {
+    margin: 20px;
+    color: #777676; 
+    background-color: white;
+    opacity: .2;
+    padding: 10px;
+}
+
+.board-info a {
+    color: black;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 780px) {
+
+    .nav {
+        width: 300px;
+        height: 300px;
+        margin: 10px 10px 10px 5px;
+    }
+
+    .navtext {
+        margin-top: 30px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .nav {
+        display: block;
+        width: 100%;
+        height: 240px;
+        margin: 10px;
+    }
+
+    .navtext {
+        margin-top: 0px;
+        color: white;
+    }
+
+    .freshmen {
+        background-image: url("Images/Locust Hover.jpg"); 
+    }
+
+    .sophomore {
+        background: url("Images/Canvas Hover.jpg");
+    }
+
+    .junior {
+        background: url("Images/Holi Hover.jpg");
+    }
+
+    .senior {
+        background: url("Images/Hey Day Hover.jpg");
+    }
+
+    .info ul {
+        margin-left: -10vmin;
+        padding: 0px;
+    }
+
+    .info li {
+        clear: left;
+        width: 80vmin;
+        font-size: 4vmin;
+    }
+
+    .info a {
+        line-height: 8vmin;
+    }
+}
